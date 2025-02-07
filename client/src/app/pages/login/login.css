@@ -1,0 +1,68 @@
+.login_container{
+    width: 380px;
+    margin: 40px auto 60px auto;
+    padding: 20px ;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 20px;
+}
+
+.logo_heading_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.logo_heading_div h2{
+margin:0 auto;
+width: 50%; 
+text-align: center;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+}
+
+.login_input_div{
+    width: 100%;
+}
+
+.login_input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.login_checkbox_forgot_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.login_btn{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.login_join_us{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8D8D8D;
+}
+
+.login_join_us span{
+    text-decoration: underline;
+    color: black;
+}

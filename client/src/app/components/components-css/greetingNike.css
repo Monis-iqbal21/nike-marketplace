@@ -1,0 +1,12 @@
+.main_greet_container{
+    display: flex;
+    align-items: center;
+
+
+}
+
+@media(max-width: 375px){
+    .main_greet_container{
+height: 115px;
+    }
+}

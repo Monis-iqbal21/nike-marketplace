@@ -1,0 +1,101 @@
+.register_container {
+    width: 26%;
+    margin: 40px auto;
+    padding: 0 20px 30px 20px;
+}
+
+.text_border{
+    color:rgb(170, 169, 169) ;
+}
+
+.logo_headings_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0 10px 0;
+    row-gap: 30px;
+}
+
+.heading_one {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #020202;
+}
+
+.heading_two {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8D8D8D;
+    padding: 0 35px;
+}
+
+.input_fields_div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+.basic_input{
+    width: 100%;
+    margin: 10px auto;
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid rgb(212, 209, 209);
+}
+
+.birthday_text{
+
+    font-size: 12px;
+    font-weight: 400;
+    color: #8D8D8D;
+    margin-bottom: 15px;
+}
+.gender_btn_div{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+.gender_btn{
+    width: 50%;
+    padding: 0 5px 0 5px;
+    border: 1px solid rgb(212, 209, 209);
+    padding: 10px 0;
+}
+
+.check_emailsignup_div{
+    display: flex;
+    margin: 10px 0;
+    width: 80%;
+    column-gap: 10px;
+}
+.checkbox_label{
+    font-size: 12px;
+    font-weight: 400;
+    color: #8D8D8D;
+
+    /* padding: 0 100px 0 5px; */
+}
+
+
+.terms_conditions{
+    font-size: 12px;
+    font-weight: 400;
+    color: #8D8D8D;
+    padding: 0 5px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.register_btn{
+    width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    margin: 0 0 20px 0;
+}

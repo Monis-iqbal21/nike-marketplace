@@ -1,0 +1,130 @@
+.allProduct_main_container {
+
+    padding: 100px 48px 70px 48px;
+}
+
+.heading_filter_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.new_heading {
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.filter_sort_div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.down-arrow {
+    display: inline-block;
+    /* Allows the element to be rotated */
+    transform: rotate(270deg);
+    /* Rotates the '<' symbol to point downwards */
+    font-size: 18px;
+    /* Adjust font size if needed */
+    font-weight: bold;
+    /* Optional: Adjust weight for visibility */
+}
+
+
+
+
+
+
+
+/*     side bar  */
+
+.sideBar_allProduct_split {
+    display: grid;
+    grid-template-columns: 16.2% 83.8%;
+    
+}
+
+.side_bar_div {
+    width: 100%;
+    
+}
+
+.side_links{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 40px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    border-right: 5px solid grey;
+    border-radius: 5px;
+}
+
+
+.heading_arrow_align{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px 0;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+.side_bar_margin{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*          product   css */
+
+
+
+.product_grid_flex{
+    width: 100%;
+    padding: 10px 24px 30px 24px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 15px 5px;
+    
+}
+
+
+@media  (min-width: 1204px) and (max-width:320px) {
+    
+    .sideBar_allProduct_split {
+        display: grid;
+        grid-template-rows: 5.6% 83.8%;
+        grid-template-columns: none;
+        
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product_grid_flex {
+        grid-template-columns: 50% 50%; /* 2 columns */
+    }
+}
+
+/* For mobile devices (devices with width between 480px and 768px) */
+@media (min-width: 480px) and (max-width: 768px) {
+    .product_grid_flex {
+        grid-template-columns: 100%; /* 1 column */
+    }
+}
+
+/* For very small screens (e.g., portrait phones with width less than 480px) */
+@media (max-width: 480px) {
+    .product_grid_flex {
+        grid-template-columns: 100%; /* 1 column */
+        padding: 10px 1px 30px 10px ;
+    }
+}
+
+
+
+

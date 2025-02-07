@@ -1,0 +1,85 @@
+.ess_container {
+
+    width: 100%;
+    padding: 20px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ess_heading {
+
+    font-size: 23px;
+    font-weight: 500;
+    height: 42px;
+    display: flex;
+    align-items: center;
+
+}
+
+.ess_pics_div {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 15px;
+    justify-content: space-evenly;
+    /* Space between each card */
+    /* Adjust gap between images */
+}
+
+.ess_piv {
+    position: relative;
+    width: 100%;
+}
+
+
+
+.ess_btn {
+    position: absolute;
+    bottom: 8%;
+    /* Distance from the bottom of the container */
+    left: 11%;
+    /* Center horizontally */
+    background-color: white;
+    /* Button background color */
+    color: black;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Button padding for better appearance */
+    font-size: 16px;
+    /* Adjust font size */
+    border-radius: 20px;
+    /* Optional: rounded button */
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .ess_pics_div {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .ess_container {
+        align-items: center;
+    }
+}
+
+
+@media(max-width: 375px){
+    .ess_pics_div {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .ess_container {
+        align-items: center;
+        padding: 20px 20px;
+    }
+}
