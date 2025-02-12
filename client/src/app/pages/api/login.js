@@ -14,7 +14,8 @@ const handleSubmit = async (event) => {
 
       if (response.ok) {
           const data = await response.json();
-          alert(data.message); // Login successful
+          alert(data.message);
+          console.log(email, password) // Login successful
       } else {
           const error = await response.json();
           alert(error.error || "An error occurred"); // Invalid credentials or other errors

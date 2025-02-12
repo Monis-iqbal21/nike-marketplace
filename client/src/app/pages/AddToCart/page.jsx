@@ -55,11 +55,11 @@ export default function AddToCard() {
             </div>
             <div className="ml-5 w-[537px] h-[170px] ">
               <div className="flex">
-                <h3 className="text font-bold">Nike Air Force 1 Mid '07</h3>
+                <h3 className="text font-bold">Nike Air Force 1 Mid &apos;07</h3>
                 <h2 className="text font-semibold ml-44">MRP: $ 10795</h2>
               </div>
               <p className="w-[235px] font-light text-[#757575] mt-1">
-              Men's Shoes
+              Men&apos;s Shoes
               </p>
               <div className="flex mt-2">
                 <h5 className="text-[#757575]">Size L</h5>
@@ -89,7 +89,7 @@ export default function AddToCard() {
                 <h2 className="text font-semibold ml-44">MRP: ₹ 8 595.00</h2>
               </div>
               <p className="w-[235px] font-light text-[#757575] mt-1">
-                Men's Shoes
+                Men&apos;s Shoes
               </p>
               <div className="flex mt-2">
                 <h5 className="text-[#757575]">Size L</h5>
@@ -119,7 +119,7 @@ export default function AddToCard() {
                 <h2 className="text font-semibold ml-44">MRP: ₹ 7 495.00</h2>
               </div>
               <p className="w-[235px] font-light text-[#757575] mt-1">
-                Older Kids' Shoes
+                Older Kids&apos; Shoes
               </p>
               <div className="flex mt-2">
                 <h5 className="text-[#757575]">Size S</h5>

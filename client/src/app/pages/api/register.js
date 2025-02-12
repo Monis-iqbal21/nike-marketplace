@@ -35,6 +35,6 @@ const handleSubmit = async (e) => {
             setError(data.error || "Something went wrong. Please try again.");
         }
     } catch (err) {
-        setError("Failed to connect to the server. Please try again.");
+        setError("Failed to connect to the server. Please try again.", err);
     }
 };

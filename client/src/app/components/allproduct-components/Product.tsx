@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Image from "next/image";
 import Link from "next/link";
 import "./product.css";
-import { allProducts, fourProduct } from '@/sanity/lib/queries'
+import { allProducts } from '@/sanity/lib/queries'
 import type { Product } from '../../../../types/products'
 import { client } from '@/sanity/lib/client'
 import { urlFor } from '@/sanity/lib/image'

@@ -7,7 +7,6 @@ import GearUp from "./components/GearUp"
 import DontMiss from "./components/DontMiss"
 import Essential from "./components/Essential"
 import AllLinks from "./components/AllLinks"
-import { useEffect } from "react"
 
 
 export default function Home() {

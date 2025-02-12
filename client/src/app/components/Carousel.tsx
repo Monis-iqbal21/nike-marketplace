@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import "./components-css/carousel.css"
 import { client } from '@/sanity/lib/client'
-import { allProducts, fourProduct } from '@/sanity/lib/queries'
+import {  fourProduct } from '@/sanity/lib/queries'
 import { Product } from '../../../types/products'
 import { urlFor } from '@/sanity/lib/image'
 

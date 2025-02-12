@@ -1,12 +1,11 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./components-css/navbar.css";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/images/logo.png";
 import logo2 from "../../../public/images/logo2.png";
 import search from "../../../public/images/search.png";
-import love from "../../../public/images/love.png";
 import shop from "../../../public/images/shop.png";
 import { useUserContext } from "../context/user";
 import { useRouter } from "next/navigation";

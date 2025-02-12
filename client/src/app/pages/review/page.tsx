@@ -11,7 +11,7 @@ export default function ReviewPage() {
   const [name, setName] = useState('');
   const [review, setReview] = useState('');
 
-  const handleSubmit = (e : any) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     if (name && review) {
       setReviews([...reviews, { name, review }]);

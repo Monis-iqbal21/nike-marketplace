@@ -39,7 +39,7 @@ const LoginPage = () => {
         setError(data.error || "Invalid credentials");
       }
     } catch (err) {
-      setError("Failed to connect to the server. Please try again.");
+      setError("Failed to connect to the server. Please try again.", err);
     }
   };
 
@@ -83,7 +83,7 @@ const LoginPage = () => {
         </button>
       </div>
       <p style={{ fontSize: "12px", color: "#8D8D8D", textAlign: "center" }}>
-        By logging in, you agree to Nike's&nbsp;
+        By logging in, you agree to Nike &apos;s&nbsp;
         <span style={{ textDecoration: "underline" }}>Privacy Policy</span> &nbsp;and&nbsp;
         <span style={{ textDecoration: "underline" }}>Terms of Use</span>.
       </p>

@@ -24,14 +24,14 @@ export default function Contact() {
                     </div><br />
                     <div className="ml-28 w-[900.75px]">
                         <p className="">Visa, Mastercard, Diners Club, Discover, American Express, Visa Electron, Maestro <br /><br />
-                            If you enter your PAN information at checkout, you'll be able to pay for your order with PayTM or a local credit or debit card. <br /><br />
+                            If you enter your PAN information at checkout, you&apos;ll be able to pay for your order with PayTM or a local credit or debit card. <br /><br />
                             Apple Pay
                         </p>
                     </div><br />
                     <div className="contact-box4">
                         <p className="ml-20">
                             <u className="text font-semibold">Nike Members </u>
-                            can store multiple debit or credit cards in their profile for faster checkout. If you're not already a Member,
+                            can store multiple debit or credit cards in their profile for faster checkout. If you&apos;re not already a Member,
                             <u className="text font-semibold"> join <br /> us </u>
                             today.
                         </p><br />
@@ -49,8 +49,8 @@ export default function Contact() {
                         <p className="ml-20 mt-2">You can use any accepted credit card to pay for your SNKRS order.</p>
                     </div><br />
                     <div className="contact-box7">
-                        <h1 className="ml-20 text text-1xl font-bold">Why don't I see Apple Pay as an option?</h1>
-                        <p className="ml-20 mt-2 w-[920px]">To see Apple Pay as an option in the Nike App or on Nike.com, you'll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you'll need to use Safari to use Apple Pay on Nike.com.</p>
+                        <h1 className="ml-20 text text-1xl font-bold">Why don&apos;t I see Apple Pay as an option?</h1>
+                        <p className="ml-20 mt-2 w-[920px]">To see Apple Pay as an option in the Nike App or on Nike.com, you&apos;ll need to use a compatible Apple device running the latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you&apos;ll need to use Safari to use Apple Pay on Nike.com.</p>
                     </div><br />
                     <div className="contact-box8">
                         <p className="ml-20 text text-base">Was this answer helpful?</p>
@@ -61,7 +61,7 @@ export default function Contact() {
                     </div>
                     <div className="contact-box9">
                         <h5 className="ml-20 mt-3 text-gray-500">RELATED</h5>
-                        <h4 className="ml-28 mt-4 text-gray-800"><u>WHAT ARE NIKE'S DELIVERY OPTIONS?</u></h4>
+                        <h4 className="ml-28 mt-4 text-gray-800"><u>WHAT ARE NIKE&apos;S DELIVERY OPTIONS?</u></h4>
                         <h4 className="ml-28 text-gray-800"><u>HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</u></h4>
                     </div><br />
                 </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                         </div><br /><br />
                         <div className="w-[260px]">
                             <center><img src="mail.svg" alt="Mail" className="mt-2" /></center>
-                            <center><h5 className="text mt-4 font-semibold">We'll reply within</h5></center>
+                            <center><h5 className="text mt-4 font-semibold">We&apos;ll reply within</h5></center>
                             <center><p className="mt-1">five business days</p></center>
                         </div><br /><br />
                         <div className="w-[260px]">
