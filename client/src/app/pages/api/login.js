@@ -25,3 +25,10 @@ const handleSubmit = async (event) => {
       alert("An error occurred while trying to log in. Please try again.");
   }
 };
+
+
+export async function getServerSideProps() {
+    console.log("Sanity API Token (server-side):", process.env.SANITY_API_TOKEN);
+    return { props: {} };
+  }
+  
